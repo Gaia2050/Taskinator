@@ -249,7 +249,8 @@ var taskStatusChangeHandler = function (event) {
 var saveTasks = function () {
     localStorage.setItem("tasks", JSON.stringify(tasks));
 }
-
+//edited line 252
+saveTasks();
 
 //get task items from localStorage
 //convert tasks from the string format into an array of objects
